@@ -60,4 +60,9 @@ public class Animal implements Serializable{
     public void setLegs(int legs){
         this.legs = legs;
     }
+
+
+
+    
+
 }
