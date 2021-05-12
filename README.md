@@ -2,8 +2,8 @@ JungleApiTest
 
 
 - Para el desarrollo de esta Api se ha usado:
-    - Java como lenguaje de desarrollo
-    - Spring como framework de desarrollo
+    - Java8 como lenguaje de desarrollo
+    - SpringBoot v2.4.5 como framework de desarrollo
     - MariaDB como base de datos
     - JPA como API de persistencia en base de datos
 
