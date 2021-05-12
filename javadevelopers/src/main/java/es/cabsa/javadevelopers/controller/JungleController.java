@@ -26,6 +26,7 @@ public class JungleController {
 
     /**
      * Method to create a new food
+     * example: {name: "Apple"}
      * @param food
      * @return
      */
@@ -36,6 +37,7 @@ public class JungleController {
 
     /**
      * Get animal by name
+     * example: localhost:8080/jungle/getAnimalByName/Cocodrile
      * @param name
      * @return
      */
@@ -46,6 +48,7 @@ public class JungleController {
 
     /**
      * Get food by name
+     * example: localhost:8080/jungle/getFoodByName/Cocodrile
      * @param name
      * @return
      */
@@ -56,6 +59,7 @@ public class JungleController {
 
     /**
      * Get Animals list
+     * example: localhost:8080/jungle/getAnimalList/
      * @return
      */
     @GetMapping("/getAnimalList/")
